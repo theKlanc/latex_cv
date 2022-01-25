@@ -1,0 +1,105 @@
+\documentclass{lluistrilla_cv}
+
+\setname{Lluís Trilla Esquinas}
+\setaddress{Flaçà / Girona}
+\setmobile{+34 697 776 939}
+\setmail{lluistrillaesquinas@gmail.com}
+\setposition{Software Engineer} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/lluís-trilla-esquinas-009b43166/} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/theKlanc} %you can play with color of the template (red is also nice..)
+\setthemecolor{red} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Resum}{%
+    Enginyer de Software proactiu i amb ganes d'aprendre i aportar a l'equip. Experiència amb llenguatges de programació orientada a objectes, com C++, C#, Java o Python. Facilitat per treballar en grup i adaptar-me a les eines i processos de l'equip. Actualment estic treballant en projectes personals amb Unity i en un motor de videojocs fet en C++ i OpenGL, començat com a treball de fi de grau i amb un 10 de nota (\url{https://github.com/theKlanc/Z5}).
+}
+%
+%Education
+\section{Estudis} 
+    \datedexperience{Universitat de Girona}{2020} 
+     \explanationdetail{
+     \vspace{2mm}
+        Graduat en Enginyeria informàtica en l'especialitat de Computació avançada (Programació funcional i declarativa, Intel·ligència artificial avançada, Criptografia, Programació gràfica. Excel·lència en estada laboral i treball  de fí de grau (10).
+     }
+%
+% Experience
+\section{Experiència}
+    %
+    \datedexperience{Newronia, S.L.}{2018 / Girona} 
+    \explanation{Estudiant en pràctiques i programador [\textcolor{Emerald}{C\lserif\#, Java}]} 
+    %
+    \datedexperience{Newronia, S.L.}{2019 / Girona}
+    \explanation{Dissenyador i desenvolupador de software 
+    [\textcolor{Emerald}{C\lserif\#, Java, Machine Learning, Linux}]}
+    \explanationdetail{\coloredbullet\ %
+     Desenvolupament del backend d'un sistema d'etiquetadores industrials.
+     \newline\coloredbullet\
+     Desenvolupament de millores en software d'optimització d'espai / paletització.
+     \newline\coloredbullet\
+     Reestructuració i optimització de software per generació de rutes de distribució logística.
+     \newline\coloredbullet\
+     Gestió de servidors Linux.
+     }
+    %
+    \datedexperience{eXiT - Research Group}{Feb 2020 - Sep 2020 / Girona} 
+    \explanation{Administrador de sistemes [\textcolor{Emerald}{Linux, Git, SVN}]} 
+    \explanationdetail{\coloredbullet\ %
+     Gestió de servidors i sistemes informàtics.
+     \newline\coloredbullet\
+     Manteniment, actualització i millora de les eines i processos informàtics utilitzats pels investigadors.
+     }
+    %
+    \datedexperience{GISCE-TI, S.L.}{Nov 2020 - Apr 2021 / Girona} 
+    \explanation{Enginyer de software [\textcolor{Emerald}{Python, OpenERP, Linux}]} 
+    \explanationdetail{\coloredbullet\ %
+     Disseny i creació de noves funcionalitats per un ERP per a distribuïdores i comercialitzadores elèctriques.
+     \newline\coloredbullet\
+     Contribució a llibreries de codi obert de l'àmbit de la gestió de la xarxa elèctrica nacional.
+     }
+    %
+    \datedexperience{Asuni}{Apr 2021 - Oct 2021 / Barcelona} 
+    \explanation{Enginyer de software [\textcolor{Emerald}{C++, ObjectARX}]} 
+    \explanationdetail{\coloredbullet\ %
+     Disseny i implementació de noves funcionalitats pel software d'arquitectura VisualARQ.
+     }
+%
+% Skills
+\section{Coneixements}
+    %
+    \newcommand{\skillone}{\createskill{Llenguatges de programació}{\textbf{\emph{Fluid:}} \ \  C++ \cpshalf C\lserif\# \ \ \textbf{\emph{Familiar:}} \ \  Java \cpshalf Python \cpshalf Javascript \cpshalf Bash \cpshalf Rust \cpshalf PHP}}
+    %
+    \newcommand{\skilltwo}{\createskill{Eines \ \& \ Llibreries}{OpenERP \cpshalf OpenGL \cpshalf Unity \cpshalf Docker \cpshalf ObjectARX \cpshalf Git \cpshalf CLI}}
+    %
+    \newcommand{\skillthree}{\createskill{Idiomes}{\textbf{\emph{Natiu:}} \ \  Català \cpshalf Castellà \ \ \textbf{\emph{Fluid:}} \ \ Anglès}}
+    %
+    \createskills{\skillone, \skilltwo, \skillthree}
+%
+% Experience
+\section{Altres aptituds}
+    \newcommand{\extraone}{%
+    Coneixements en disseny i reparació de circuits electrònics.
+    }
+    %
+    \newcommand{\extratwo}{%
+    Habilitats de disseny industrial 3D, DIY i impressió 3D.
+    }
+    %
+    \newcommand{\extrathree}{%
+    Experiència en motors de videojocs 3D.
+    }
+    %
+    \newcommand{\listofextras}{\extraone, \extratwo, \extrathree}
+    %
+    \createbullets{\listofextras}
+%
+%Footnote
+\createfootnote
+\end{document}

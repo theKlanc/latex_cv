@@ -47,7 +47,7 @@
 
 \newcommand\headerview{
 \begin{minipage}{0.25\linewidth}
-    \profpic{0.2}{images/profilepicture}
+    \profpic{0.16}{images/profilepicture}
 \end{minipage}% 
 \hfill
 \begin{minipage}{0.45\linewidth}
